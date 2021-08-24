@@ -11,6 +11,5 @@ function helloWorld() {
 
 // sayHello function
 
-const sayHello = (name) => {
-    return "Hello, " + name + "!";
-}
+const sayHello = (name) =>  "Hello, " + name + "!";
+
