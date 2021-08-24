@@ -29,3 +29,14 @@ const isEven = (number) => {
     return (typeof number === "boolean") ? false
             : (number % 2 === 0);
 }
+
+//isVowel function
+
+const isVowel = (input) => {
+    if (input === "a" || input === "e" || input === "i" || input === "o" || input === "u" ||
+        input === "A" || input === "E" || input === "I" || input === "O" || input === "U") {
+        return true;
+    } else {
+        return false;
+    }
+}
