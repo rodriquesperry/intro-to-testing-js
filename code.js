@@ -12,5 +12,5 @@ function helloWorld() {
 // sayHello function
 
 const sayHello = () => {
-
+    return "";
 }
