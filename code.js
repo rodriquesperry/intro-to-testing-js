@@ -11,5 +11,11 @@ function helloWorld() {
 
 // sayHello function
 
-const sayHello = (name) =>  "Hello, " + name + "!";
+const sayHello = (name) =>  {
+    if (name === undefined || typeof name === "boolean" || name === null || name === "") {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + name + "!";
+    }
+}
 
