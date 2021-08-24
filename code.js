@@ -31,7 +31,6 @@ const isEven = (number) => {
 }
 
 //isVowel function
-
 const isVowel = (input) => {
     if (input === "a" || input === "e" || input === "i" || input === "o" || input === "u" ||
         input === "A" || input === "E" || input === "I" || input === "O" || input === "U") {
@@ -40,3 +39,10 @@ const isVowel = (input) => {
         return false;
     }
 }
+
+//add function
+const add = (num1, num2) => parseInt(num1) + parseInt(num2);
+
+
+
+
