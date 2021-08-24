@@ -20,10 +20,12 @@ const sayHello = (name) =>  {
 
 //isFive function
 const isFive = (input) => {
-    if (input === 5) {
-        return true;
-    } else {
-        return false;
-    }
+    return input === 5;
 }
 
+//isEven function
+const isEven = (number) => {
+
+    return (typeof number === "boolean") ? false
+            : (number % 2 === 0);
+}
