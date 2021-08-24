@@ -12,5 +12,5 @@ function helloWorld() {
 // sayHello function
 
 const sayHello = (name) => {
-    return "Hello, " + name;
+    return "Hello, " + name + "!";
 }
