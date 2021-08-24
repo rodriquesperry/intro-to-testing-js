@@ -46,4 +46,17 @@ describe('sayHello', function () {
     it('should return the string "Hello, World!" when executed', function () {
         expect(sayHello("")).toBe('Hello, World!');
     });
-})
+});
+
+describe('isFive', function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return a boolean value no matter what the input', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('should not return true for input "5" ', function () {
+    expect(isFive("5")).toBe(false);
+    });
+
+});

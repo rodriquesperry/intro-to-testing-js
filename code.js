@@ -10,12 +10,20 @@ function helloWorld() {
 
 
 // sayHello function
-
 const sayHello = (name) =>  {
     if (name === undefined || typeof name === "boolean" || name === null || name === "") {
         return "Hello, World!"
     } else {
         return "Hello, " + name + "!";
+    }
+}
+
+//isFive function
+const isFive = (input) => {
+    if (input === 5) {
+        return true;
+    } else {
+        return false;
     }
 }
 
